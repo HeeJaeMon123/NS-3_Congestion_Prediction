@@ -23,7 +23,7 @@
 
   + ns3 오픈소스를 활용하여 데이터를 생성했습니다.  
   + 아래 사진은 시간에 따른 congestion window의 크기입니다. congestion window가 2개(오른쪽 2개)출력 된 것을 볼 수 있는데 이는 전 시간대의 congestion window와 현재 시간대의 congestion window 크기를 나타내고 모델에 사용한 데이터는 현재 시간대의 congestion window 크기만을 사용했습니다.
-  + RxDrop이라고 써있는 곳은 Packet drop이 일어났다는 것입니다. RxDrop at 1.13696 밑의 2줄을 보면 congestion window가 14472에서 1040으로 변한 것을 볼 수 있습니다. 이는 TCP Reno의 특징입니다. 이때가 혼잡 상태이므로 제가 일일이 labeling을 진행했습니다. 데이터는 약 1000개입니다. 또한 train과 test를 나눌 때는 **stratify split**을 사용했습니다.
+  + RxDrop이라고 써있는 곳은 Packet drop이 일어났다는 것입니다. RxDrop at 1.13696 밑의 2줄을 보면 congestion window가 14472에서 1040으로 변한 것을 볼 수 있습니다. 이는 TCP Reno의 특징입니다. 이때가 혼잡 상태이므로 제가 일일이 labeling을 진행했습니다. 데이터는 약 1000개입니다. 또한 train과 test를 나눌 때는 ** stratify split **을 사용했습니다.
   + label 0은 정상, label 1은 혼잡상태 입니다.
   ![2](https://user-images.githubusercontent.com/66413753/146819359-2440e359-6eb0-449a-a518-409be794da22.PNG)
 
