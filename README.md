@@ -30,9 +30,9 @@
   + 아래 사진은 RTT입니다. ns 단위로 출력되기 때문에 apply를 이용하여 전처리 해주었습니다.
 
   
-![5](https://user-images.githubusercontent.com/66413753/146819380-70d1afff-8334-4c91-9400-f87f123ed093.PNG)
+  ![5](https://user-images.githubusercontent.com/66413753/146819380-70d1afff-8334-4c91-9400-f87f123ed093.PNG)
 
-![6](https://user-images.githubusercontent.com/66413753/146819395-8cfdbdf1-2637-4421-9c90-bb5773809580.PNG)
+  ![6](https://user-images.githubusercontent.com/66413753/146819395-8cfdbdf1-2637-4421-9c90-bb5773809580.PNG)
 
 
  
@@ -56,13 +56,13 @@
   + 반면 linear kernel을 사용하면 굉장히 예측을 잘했습니다. (사진에서 edgecolor가 다른 데이터가 있는 이유는 train_data이기 때문입니다.)
 
     
-![4](https://user-images.githubusercontent.com/66413753/146819466-7c47db66-5bb0-4cea-a6d7-144ff2909d8e.PNG)
+    ![4](https://user-images.githubusercontent.com/66413753/146819466-7c47db66-5bb0-4cea-a6d7-144ff2909d8e.PNG)
 
     
 
   + 프로젝트를 시작하기 전에 저는 트리 계열은 거의 예측 정확도가 100%라고 예측했습니다. (cross entropy로 계산하기 때문에) 결과는 매우 좋았습니다. 하지만 결정 경계를 그려보면 굉장히 overfit이 심한 것을 볼 수 있습니다. 이는 트리 계열 알고리즘이 overfit하기 굉장히 쉽다는 것을 상기시켜줍니다.
 
- ![8](https://user-images.githubusercontent.com/66413753/146819477-2eb6378e-be22-4534-a5a7-4aaf187c2b92.PNG)
+     ![8](https://user-images.githubusercontent.com/66413753/146819477-2eb6378e-be22-4534-a5a7-4aaf187c2b92.PNG)
 
 
   + precision, recall값 바꿔보기
